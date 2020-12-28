@@ -1,0 +1,47 @@
+.dycalendar-container {
+	display:inline-block;
+	width:100%;
+}
+.dycalendar-day-container {
+	padding:10px;
+	text-align:center;
+}
+.dycalendar-day-container div {
+	padding:0;
+	margin-bottom:10px
+}
+.dycalendar-month-container {
+	text-align:center;
+}
+.dycalendar-month-container div {
+	padding:20px 15px;
+	background:#029CB7;
+	color:#FFF;
+	text-transform: uppercase;
+	letter-spacing:3px;
+}
+.dycalendar-month-container .dycalendar-header {
+	position:relative
+}
+.dycalendar-month-container .dycalendar-body {
+	background: #F9F9F9;
+	color: #888888;
+	padding: 0;
+}
+.dycalendar-month-container .dycalendar-body table tr:first-child {
+	background: #DDDDDD;
+}
+.dycalendar-month-container .dycalendar-body table tr:first-child td {
+	padding: 10px 5px;
+}
+.dycalendar-month-container .dycalendar-body table {
+	border-collapse: collapse;
+	width:100%;
+}
+.dycalendar-month-container .dycalendar-body table tr td {
+	padding:5px;
+}
+.dycalendar-container.skin-red .dycalendar-today-date {
+	color:#029CB7;
+	font-weight: bold;
+}

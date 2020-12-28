@@ -1,0 +1,127 @@
+body
+{
+    background:url("../images/BACKDROP 2.JPG");
+    height: 100vh;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    -webkit-background-size: cover;
+    display:block;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: #999; 
+    overflow: hidden;
+}
+.img-responsive[name="cur"]{
+    margin-left: 45px;
+    margin-top:170px;
+}
+.form-group
+{
+    height: auto;
+    width: auto;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+.form-control 
+{
+    border: none;
+    outline: none;  
+    width:35%;
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+	background: #1c8adb;
+	color:#fff;
+	font-size: 18px;
+    border-radius: 20px;
+}
+*{box-sizing: border-box;}
+.form-group a{
+    position: absolute;
+    margin-left:20%; 
+    align-items: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+a:hover
+{
+    color: blue;
+}
+.form-control::-webkit-input-placeholder {
+    color : white;
+    text-align: center;
+ }
+ 
+.form-control::-moz-input-placeholder { /* Firefox 18- */
+    color : white;
+    text-align: center;  
+ }
+.form input[type="submit"]:hover
+{
+    color:black;
+    background-color: rgb(6, 97, 201);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.form-control::-moz-input-placeholder
+{  /* Firefox 19+ */
+    color : white;
+    text-align: center;  
+}
+.form-control::-ms-input-placeholder {
+    color : white;  
+    text-align: center; 
+}
+.form-control::-webkit-input-placeholder {
+    color : white;
+    opacity: 0.5;
+}
+.row{
+    height: 50px;
+    display: block;
+}
+.btn
+{
+    position: absolute;
+	color: blue;
+	border: 2px solid rgb(79, 148, 228);
+	text-decoration: blue;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+.btn[name="s_in"]
+{
+    margin-left:75px;
+    margin-top:25px;
+    width: 20%;
+}
+.btn[name="s_up"]
+{
+    margin-left:75px;
+    margin-top:25px;
+    width: 20%;
+}
+.btn[name="s_in"]:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn[name="s_up"]:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.responsive-width{
+    font-size: 1vw;
+}

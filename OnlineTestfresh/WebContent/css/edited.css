@@ -1,0 +1,2514 @@
+/*******All general style css********/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-bold {
+    color: #666;
+}
+
+.top-left-part .logo span {
+    display: inline !important;
+}
+
+.top-left-part .logo img {
+    padding: 9px 0px 9px 40px;
+}
+
+.bg-custom {
+    background-color: #029CB7 !important;
+}
+
+.t-i-2 {
+    text-indent: 2px;
+}
+
+.font-8 {
+    font-size: 8px !important;
+}
+
+.font-10 {
+    font-size: 10px !important;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-16 {
+    font-size: 16px !important;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.text-custom-dander {
+    color: #FB9077 !important;
+}
+
+small {
+    color: #5C6167;
+}
+
+.btn {
+    border-radius: 4px !important;
+}
+
+.btn-sm {
+    padding: 6.5px 10px !important;
+}
+
+.btn-xs {
+    padding: 1px 8px 0 8px !important;
+}
+
+input[type="date"].input-sm {
+	padding: 0px 10px;
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+ 
+.btn-xs-1 {
+    padding: 0 5px;
+    font-size: 10px;
+}
+
+select {
+    background-color: transparent;
+    color: #5C6167;
+    font-size: 12px;
+    padding: 4.35px 20px 4.5px 10px !important;
+    border: 1px solid #e4e7ea;
+    cursor: pointer;
+    width: 100%;
+    -webkit-appearance: none;
+    /*Removes default chrome and safari style*/
+    -moz-appearance: none;
+    /*Removes default style Firefox*/
+    appearance: none;
+    background: url(../image/arrow.png) no-repeat;
+    background-position: right 6px center;
+    border-radius: 4px !important;
+}
+
+select::-ms-expand {
+    /* for IE 11 */
+    display: none;
+}
+
+select option {
+    color: #5C6167;
+}
+
+/****************/
+.white-box .two-part img {
+    width: 50px;
+}
+
+.two-part li span {
+    font-size: 41px;
+    /*line-height: 40px;*/
+}
+
+.my_service .white-box p img {
+    width: 80px;
+}
+
+.my_service .white-box .service_info {
+    max-height: 70px;
+	min-height: 70px;
+    overflow: hidden;
+	font-size:10px;
+	line-height: 1.4;
+}
+
+.my_service .white-box h3 {
+    font-size: 14px;
+}
+
+.my_service .white-box  h3 {
+    font-size: 14px;
+}
+
+.modal select {
+    padding: 6px 20px 6px 10px;
+}
+
+.custom_selectpicker .btn {
+    font-size: 12px;
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+    background: #FFF;
+}
+
+.custom_selectpicker .bs-searchbox .form-control {
+    height: 30px;
+}
+
+/***************/
+th {
+	text-align: center !important;
+}
+.table.dataTable,
+table.dataTable {
+    width: 99.5% !important;
+}
+
+table.dataTable {
+    border: none;
+    border-top: 1px solid #000;
+}
+
+table.dataTable.display tbody td {
+    border-bottom: 1px solid #ddd;
+    border-top: 0px;
+}
+
+.table-invoice tbody td {
+    border-top: 0px !important;
+    padding: 5px 15px !important;
+}
+
+.table-invoice tbody td:first-child {
+    width: 75%;
+}
+
+.table-invoice tbody td:last-child {
+    width: 25%;
+}
+
+.custom-checkbox .custom-control-indicator {
+    border-radius: 0rem;
+}
+
+.custom-control-indicator {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-size: 75% 75%;
+    background-size: 75% 75%;
+    border: 1px solid #0275d8;
+}
+
+/****************/
+.dashboard .info {
+    border-bottom: 2px solid #03a9f3;
+}
+
+.dashboard .danger {
+    border-bottom: 2px solid #FB9077;
+}
+
+.dashboard .custom {
+    border-bottom: 2px solid #029CB7;
+}
+
+.dashboard .primary {
+    border-bottom: 2px solid #ab8ce4;
+}
+
+.dashboard .warning {
+    border-bottom: 2px solid #fec107;
+}
+
+.dashboard .success {
+    border-bottom: 2px solid #00c292;
+}
+
+.dashboard .inverse {
+    border-bottom: 2px solid #4c5667;
+}
+
+.dashboard .wrong {
+    border-bottom: 2px solid #FF0000;
+}
+
+.dashboard .white-box {
+    margin-bottom: 15px;
+}
+
+.dashboard .clinic_details p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+.dashboard .white-box p img {
+    width: 70px;
+}
+
+/****************/
+.hr_logo {
+    border-color: #029CB7 !important;
+}
+
+.hr_logo1 {
+    border-color: #029CB7 !important;
+    border-width: 3px;
+    margin-top: 7.5px !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.checkbox-custom input[type=checkbox]:checked+label::before {
+    background-color: #199CB7;
+    border-color: #199CB7;
+}
+
+.checkbox-custom input[type=checkbox]:checked+label::after {
+    color: #fff;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+.modal-header {
+    background: #DDDDDD;
+    border-radius: 4px 4px 0 0;
+    font-size: 14px;
+}
+
+.modal-content {
+    border-radius: 4px;
+}
+
+.modal-body .form-group {
+    margin-bottom: 5px;
+}
+
+.tooltip-inner {
+    max-width: 250px;
+    text-align: left;
+}
+
+/***************/
+.userprofile {
+    width: 200px;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.userprofile li {
+    border-bottom: 1px solid rgba(120, 130, 140, .13);
+    color: #5C6167;
+}
+
+.userprofile li:last-child {
+    border-bottom: 0;
+}
+
+.userprofile li:hover {
+    background-color: #f7fafc;
+}
+
+.userprofile li i {
+    margin: 0 5px 0 0;
+}
+
+/*******container style css********/
+#page-wrapper {
+    padding: 0 0 15px;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.content-wrap section {
+    padding: 0px;
+}
+
+#side-menu li a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+.sidebar #side-menu .user-pro .arrow {
+    right: 15px !important;
+}
+
+/*******Default panel style css********/
+.panel {
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.panel .panel-heading {
+    text-transform: none;
+    padding: 0 7.5px 5px 7.5px;
+    font-size: 16px;
+}
+
+.panel .panel-heading img {
+    width: 22px;
+}
+
+.panel .panel-body {
+    padding: 10px 0 0 0;
+}
+
+.panel .panel-action a {
+    opacity: 1;
+}
+
+/*.panel-custom {
+	border-color: #199CB7;
+}*/
+.panel-custom>.panel-heading {
+    color: #646464;
+    background-color: #FFF;
+    border-color: #818285;
+}
+
+.panel .panel-heading a i {
+    color: #5C6167;
+    font-size: 12px;
+}
+
+.panel .panel-heading a .btn i {
+    margin-left: 0px;
+}
+
+.panel-custom>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #029CB7
+}
+
+.panel-custom>.panel-heading .badge {
+    color: #FFF;
+    background-color: #029CB7
+}
+
+.panel-custom>.panel-footer+.panel-collapse>.panel-body {
+    border-bottom-color: #029CB7
+}
+
+.panel-custom .panel-body .overview .white-box {
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px #CCC;
+}
+
+.panel-action .btn-xs {
+    margin-top: -3px;
+}
+
+/*******Child page css********/
+.r-icon-stats {
+    margin-bottom: 5px;
+}
+
+.overview {
+    margin-bottom: 15px;
+}
+
+.overview p {
+    margin-bottom: 0px;
+}
+
+.overview p .btn {
+    margin: 0 2px;
+}
+
+.r-icon-stats img {
+    width: 66px;
+    height: 66px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: none;
+    vertical-align: top;
+    background-color: transparent;
+}
+
+.r-icon-stats .bodystate {
+    padding-left: 10px;
+}
+
+/*.r-icon-stats .bodystate h4 {
+	color: #199CB7;
+}*/
+.r-icon-stats .bodystate p {
+    margin-bottom: 5px;
+}
+
+/*******Group dashboard********/
+.ribbon-custom {
+    background: #5C6167;
+}
+
+.ribbon-bookmark.ribbon-custom:before {
+    border-color: #888888 transparent #888888 #5C6167;
+}
+
+.ribbon-bookmark.ribbon-right.ribbon-custom:before {
+    border-right-color: #5C6167;
+    border-left-color: transparent;
+}
+
+.ribbon-bookmark.ribbon-vertical-l.ribbon-custom:before,
+.ribbon-bookmark.ribbon-vertical-r.ribbon-custom:before {
+    border-right-color: #5C6167;
+    border-bottom-color: transparent;
+}
+
+.ribbon-custom.ribbon-corner:before {
+    border-top-color: #5C6167;
+    border-left-color: #5C6167;
+}
+
+.ribbon-custom.ribbon-corner.ribbon-right:before {
+    border-right-color: #5C6167;
+    border-left-color: transparent;
+}
+
+.ribbon-custom.ribbon-corner.ribbon-bottom:before {
+    border-top-color: transparent;
+    border-bottom-color: #5C6167;
+}
+
+.ribbon-corner::before {
+    border: 25px solid transparent;
+}
+
+.ribbon-corner.ribbon-right {
+    padding: 0px 8px 0 0;
+}
+
+.ribbon-wrapper-reverse {
+    padding: 10px;
+    background-color: transparent;
+    /*border: 1px solid #199CB7;*/
+    box-shadow: 0 0 5px #CCC;
+}
+
+.ribbon-wrapper-reverse hr {
+    margin: 5px 0;
+    border-color: #5C6167;
+}
+
+.ribbon-wrapper-reverse p:last-child,
+.ribbon-wrapper-reverse-fill p:last-child {
+    margin-bottom: 0px;
+}
+
+.ribbon-wrapper-reverse-fill {
+    padding: 15px;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #FAAD3D;
+}
+
+.ribbon-wrapper-reverse-fill hr {
+    margin: 5px 0 10px 0;
+    border-color: #FAAD3D;
+}
+
+.ribbon-wrapper-reverse-fill .btn {
+    margin: 0 5px;
+}
+
+.allotment_value .ribbon-content img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.fill_value .ribbon-content img {
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.allotment_value .ribbon-content .ribbon-content-value {
+    padding: 0 0 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fill_value .ribbon-content .ribbon-content-value {
+    padding: 0 0 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.allotment_value .ribbon-content .ribbon-content-value h4 {
+    color: #199CB7;
+    margin: 10px 0 0 0;
+}
+
+.fill_value .ribbon-content .ribbon-content-value h5 {
+    margin: 0 0 0 0;
+    line-height: 1.5;
+}
+
+.fill_value .ribbon-content .ribbon-content-value p {
+    max-width: 200px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+.r-icon-stats i {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    font-size: 12px;
+}
+
+/********Search page css*******/
+.panel-custom .panel-body .search .white-box {
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px #CCC;
+    padding: 10px;
+}
+
+.panel-custom .panel-body .search .white-box hr {
+    border-color: #5C6167;
+    margin: 5px 0;
+}
+
+.panel-custom .panel-body .search .white-box img {
+    margin-right: 10px;
+}
+
+.panel-custom .panel-body .search .white-box p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+.panel-custom .panel-body .search .white-box p:last-child {
+    margin-bottom: 0;
+}
+
+.input-group .input-group-addon {
+    border-radius: 4px !important;
+    border: 1px solid #e4e7ea !important;
+}
+
+.input-group .form-control,
+.form-control {
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.input-group .form-control:focus,
+.form-control:focus {
+    border: 1px solid #e4e7ea !important;
+    box-shadow: 0 0 10px #e4e7ea !important;
+}
+
+.input-group .bootstrap-select .dropdown-toggle:focus,
+.input-group .bootstrap-select .dropdown-toggle:hover,
+.input-group .bootstrap-select .dropdown-toggle:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/*.input-group .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	 width: 150px !important;
+}*/
+.input-group .btn-default {
+    background-color: transparent;
+    border: 1px solid #5C6167;
+}
+
+.input-group .btn {
+    font-size: 14px;
+}
+
+.input-group .bootstrap-select>.dropdown-toggle {
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.input-group .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #5C6167;
+    border-radius: 0;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.input-group .dropdown-menu>.active>a,
+.input-group .dropdown-menu>.active>a:hover,
+.input-group .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #5C6167;
+    box-shadow: 0 0 10px #CCCCCC;
+}
+
+/********Avialabel bed and occupied bed page css*******/
+.alloted_value hr {
+    border-color: #FAAD3D;
+    margin: .5px 0 10px 0;
+}
+
+.allotment_value .white-box {
+    padding: 0;
+}
+
+.alloted_value .white-box {
+    padding: 0 0 10px 0;
+}
+
+.allotment_value .white-box img {
+    width: 96px;
+}
+
+.alloted_value .white-box img {
+    width: 98px;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select .dropdown-toggle:hover,
+.bootstrap-select .dropdown-toggle:active {
+    outline: none !important;
+}
+
+.allotment_value .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 140px !important;
+}
+
+.allotment_value .btn-default {
+    background-color: transparent;
+    border: 1px solid #5C6167;
+}
+
+.allotment_value .btn {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+.allotment_value .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.allotment_value .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #5C6167;
+    border-radius: 0;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.allotment_value .dropdown-menu>.active>a,
+.allotment_value .dropdown-menu>.active>a:hover,
+.allotment_value .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #5C6167;
+}
+
+/***************/
+.content-wrap section p {
+    margin: 0;
+    padding: 0;
+}
+
+/*******Apointment scheduling********/
+.app_get_data .form-group {
+    margin-bottom: 15px;
+}
+
+.app_get_data .form-group:last-child {
+    margin-bottom: 0px;
+}
+
+.app_get_data .form-group .form-control:hover,
+.app_get_data .form-group .form-control:active,
+.app_get_data .form-group .form-control:focus {
+    border: 1px solid #e4e7ea;
+}
+
+.app_get_data .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.app_get_data .btn-default:hover,
+.app_get_data .btn-default:active,
+.app_get_data .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.app_get_data .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.app_get_data .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.app_get_data .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 0;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.app_get_data .dropdown-menu>.active>a,
+.app_get_data .dropdown-menu>.active>a:hover,
+.app_get_data .dropdown-menu>.active>a:focus {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.app_get_data .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+}
+
+.schedule_table .table-condensed th {
+    font-weight: bold !important;
+    border-top: none !important;
+    text-align: center !important;
+    color: #FFF !important;
+    background-color: #029CB7 !important;
+}
+
+.schedule_table .table-condensed th,
+.schedule_table .table-condensed td {
+    padding: 4px 0 5px 0 !important;
+    border: 1px solid #029CB7 !important;
+}
+
+.schedule_table .table-condensed td label {
+    margin-bottom: 0;
+}
+
+.schedule_table hr {
+    margin: 0 0 10px 0;
+}
+
+.form-check,
+.form-check label {
+    margin-bottom: 0;
+}
+
+.form-check .custom-control {
+    margin: 0;
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*******Advertisement********/
+.addvertisement {}
+
+/*******Doctor chember schedulibng********/
+.d_c_s hr {
+    margin: 10px 0;
+}
+
+.d_c_s table tbody,
+.d_c_s table a {
+    color: #5C6167 !important;
+}
+
+.d_c_s .table-condensed td {
+    padding: 5px 0 !important;
+    vertical-align: middle;
+}
+
+.d_c_s .table-condensed td p {
+    margin-bottom: 0px;
+    line-height: 1.3;
+}
+
+.d_c_s .form-group {
+    margin-bottom: 5px;
+}
+
+.d_c_s .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.d_c_s .btn-default:hover,
+.d_c_s .btn-default:active,
+.d_c_s .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.d_c_s .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.d_c_s .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.d_c_s .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.d_c_s .dropdown-menu>.active>a,
+.d_c_s .dropdown-menu>.active>a:hover,
+.d_c_s .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.d_c_s .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+.d_c_s .bootstrap-select {
+    width: 100% !important;
+}
+
+.d_c_s .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.d_c_s .btn-sm {
+    padding: 6px 10px 7px 10px !important;
+}
+
+.d_c_s .table-condensed th {
+    font-weight: bold !important;
+    border-top: none !important;
+    text-align: center !important;
+    color: #FFF !important;
+}
+
+.d_c_s .table-condensed th,
+.d_c_s .table-condensed td {
+    padding: 5px 0 !important;
+}
+
+.d_c_s .table-bordered th,
+.d_c_s .table-bordered td {
+    border: 1px solid #029CB7 !important;
+}
+
+/*******Edit user profile********/
+.edit_personal_profile .btn-sm {
+    padding: 6px 10px 7px 10px !important;
+}
+
+.edit_personal_profile .nav-pills>li+li {
+    margin-left: 0px;
+}
+
+.edit_personal_profile .form-control {
+    border: 1px solid #e4e7ea;
+    color: #333;
+}
+
+.edit_personal_profile .tab-content {
+    margin-top: 0px;
+    padding: 15px 0px;
+}
+
+.edit_personal_profile h5 {
+    padding-left: 7.5px;
+    border-bottom: 1px solid #818285;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.edit_personal_profile .form-group {
+    margin-bottom: 15px;
+}
+
+.edit_personal_profile .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.edit_personal_profile .btn-default:hover,
+.edit_personal_profile .btn-default:active,
+.edit_personal_profile .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.edit_personal_profile .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.edit_personal_profile .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.edit_personal_profile .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.edit_personal_profile .dropdown-menu>.active>a,
+.edit_personal_profile .dropdown-menu>.active>a:hover,
+.edit_personal_profile .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+/*******Clinic profile********/
+.clinic_profile a {
+    color: inherit;
+}
+
+.clinic_profile .user-bg {
+    margin: -5px;
+    height: auto;
+    padding: 50px 50px 5px 50px;
+    overflow: hidden;
+    position: relative;
+    background: url(../image/clinic_bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.clinic_profile .user-bg img {
+    height: 100px;
+    box-shadow: 0 0 5px #5C6167;
+}
+
+.clinic_profile .user-btm-box {
+    padding-top: 25px;
+}
+
+.clinic_profile .user-btm-box img {
+    padding: 5px;
+}
+
+.clinic_profile .user-btm-box h4 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.clinic_profile .user-btm-box p {
+    margin-bottom: 0;
+}
+
+.clinic_profile .user-btm-box p.text-center {
+    line-height: 1;
+    font-size: 12px;
+}
+
+.clinic_profile .user-btm-box hr {
+    margin: 10px 0;
+}
+
+.clinic_profile .steamline .sl-item {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.clinic_profile .steamline hr {
+    margin: 10px 0;
+}
+
+.clinic_profile .tab-content #profile h5,
+.clinic_profile .tab-content #facility h5 {
+    border-bottom: 1px solid #818285;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.clinic_profile .tab-content #profile hr {
+    margin: 10px 0;
+}
+
+.clinic_profile .tab-content #profile p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.clinic_profile .tab-content #profile .form-group,
+.clinic_profile .tab-content #facility .form-group {
+    margin-bottom: 5px;
+}
+
+.clinic_profile .tab-content #profile .form-group .form-control[disabled] {
+    background-color: transparent;
+}
+
+.clinic_profile .tab-content #profile .form-group label {
+    margin-bottom: 1px;
+}
+
+.clinic_profile .customtab.nav-tabs .nav-link.active,
+.clinic_profile .customtab.nav-tabs .nav-link.active:focus,
+.clinic_profile .customtab.nav-tabs .nav-link:hover {
+    border-bottom: 2px solid #5C6167;
+    color: #5C6167;
+}
+
+.clinic_profile .btn-sm {
+    padding: 6px 10px 7px 10px !important;
+}
+
+.clinic_profile .tab-content .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.clinic_profile .tab-content .btn-default:hover,
+.clinic_profile .tab-content .btn-default:active,
+.clinic_profile .tab-content .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.clinic_profile .tab-content .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.clinic_profile .tab-content .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.clinic_profile .tab-content .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.clinic_profile .tab-content .dropdown-menu>.active>a,
+.clinic_profile .tab-content .dropdown-menu>.active>a:hover,
+.clinic_profile .tab-content .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.clinic_profile .tab-content .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+.clinic_profile .tab-content .bootstrap-select {
+    width: 100% !important;
+}
+
+.clinic_profile .tab-content .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.clinic_profile .tab-content .bootstrap-filestyle .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    height: 30px;
+}
+
+.clinic_profile .tab-content .bootstrap-filestyle .btn-default {
+    background: #199CB7;
+    border: 1px solid #199CB7;
+    color: #ffffff;
+}
+
+/*******queue_management********/
+.queue_management #nonSelected h5,
+.queue_management #selected h5 {
+    border-bottom: 1px solid #818285;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.queue_management #nonSelected p,
+.queue_management #selected p {
+    padding: 0 5px;
+    margin-bottom: 0;
+}
+
+.queue_management #nonSelected .form-group,
+.queue_management #selected .form-group {
+    border-bottom: 1px solid #818285;
+}
+
+.queue_management #nonSelected .form-group:last-child,
+.queue_management #selected .form-group:last-child {
+    border-bottom: 0px solid #818285;
+}
+
+.queue_management .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.queue_management .btn-default:hover,
+.queue_management .btn-default:active,
+.queue_management .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.queue_management .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.queue_management .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.queue_management .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.queue_management .dropdown-menu>.active>a,
+.queue_management .dropdown-menu>.active>a:hover,
+.queue_management .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.queue_management .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/********Clinic dashboard or room info*******/
+.room_info {
+    padding: 10px !important;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin-top: 10px;
+}
+
+.room_info .f_occupied p {
+    color: #000000 !important;
+}
+
+.room_info .f_occupied,
+.room_info .f_available,
+.room_info .p_occupied,
+.room_info .f_disabled {
+    padding: 1px;
+}
+
+.room_info .f_occupied .white-box {
+    margin-bottom: 0px;
+    border: 2px solid #FB9077;
+    padding: 30px 15px;
+    background: url(../image/chember_bg.png) no-repeat;
+    background-size: 100%;
+}
+
+.room_info .p_occupied .white-box {
+    margin-bottom: 0px;
+    border: 2px solid #FDC7B7;
+    padding: 30px 15px;
+}
+
+.room_info .f_available .white-box {
+    margin-bottom: 0px;
+    border: 2px solid #199CB7;
+    padding: 30px 15px;
+    background: url(../image/chember_bg_empty.png) no-repeat;
+    background-size: 100%;
+}
+
+.room_info .f_disabled .white-box {
+    margin-bottom: 0px;
+    border: 2px solid #DDDDDD;
+    padding: 30px 15px;
+}
+
+.room_info .f_available .white-box:hover,
+.room_info .f_occupied .white-box:hover,
+.room_info .p_occupied .white-box:hover {
+    margin-bottom: 0px;
+    border: 2px solid #5C6167;
+    cursor: pointer;
+}
+
+.room_info .f_occupied p,
+.room_info .p_occupied p,
+.room_info .f_available p,
+.room_info .f_disabled p {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.date_calender p {
+    padding: 0px 15px;
+    margin: 0px;
+}
+
+.avl_slot p {
+    font-size: 14px;
+}
+
+.clinic_dashboard hr {
+    margin: 5px;
+}
+
+.clinic_dashboard .avl_slot {
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.clinic_dashboard .avl_slot:nth-child(even) {
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 0px solid #EEEEEE;
+}
+
+.clinic_dashboard .avl_slot p {
+    padding: 0px 7.5px;
+    margin: 0px;
+}
+
+.clinic_dashboard .day_time .bg-null:after {
+    border-top: 15px solid #F9F9F9;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    top: 248px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+}
+
+.clinic_dashboard .day_time p {
+    padding: 5px 15px;
+}
+
+/********Clinic timeline*******/
+.timeline {
+    padding: 15px 0px 0px 0px;
+}
+
+.timeline::before {
+    background-color: #818285;
+    width: 2px;
+}
+
+.timeline>li {
+    margin-bottom: 5px;
+}
+
+.timeline-body>p+p {
+    margin-top: 0px;
+    line-height: 1.3;
+}
+
+.timeline-body hr {
+    margin: 2.5px 0 5px 0;
+}
+
+.timeline>li>.timeline-badge {
+    width: 25px;
+    height: 25px;
+    margin-left: -12.5px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.timeline>li>.timeline-panel::after {
+    top: 21px;
+}
+
+.timeline>li>.timeline-panel::before {
+    top: 20px;
+    border-left: 8px solid #818285;
+    border-right: 0 solid #818285;
+}
+
+.timeline>li>.timeline-panel {
+    float: left;
+    position: relative;
+    width: 46.5%;
+    padding: 5px 15px;
+    border: 1px solid #818285;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    margin: -80px 0 0 0;
+}
+.timeline > li.timeline-inverted > .timeline-badge {
+    float: right;
+    margin: -80px 0 0 -12.5px;
+}*/
+.new_slot_booking .modal-body .form-group {
+    margin-bottom: 5px;
+}
+
+.new_slot_booking .modal-body .form-group label {
+    margin-bottom: 2px;
+}
+
+.new_slot_booking .modal-body .form-group .form-control {
+    border-radius: 4px !important;
+}
+
+.new_slot_booking .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.new_slot_booking .btn-default:hover,
+.new_slot_booking .btn-default:active,
+.new_slot_booking .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.new_slot_booking .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.new_slot_booking .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.new_slot_booking .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.new_slot_booking .dropdown-menu>.active>a,
+.new_slot_booking .dropdown-menu>.active>a:hover,
+.new_slot_booking .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.new_slot_booking .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.latest_news {
+    border: 1px solid #FB9077;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.latest_news .news_tag {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+}
+
+.latest_news .news ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.latest_news .news ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+    color: #5C6167;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+}
+
+/*******User profile page css********/
+.user-details p {
+    margin-bottom: 1px;
+}
+
+.other_info .details img {
+    width: 55px;
+}
+
+.other_info hr {
+    margin: 0px 0px 10px 0;
+}
+
+.other_info .details p,
+.other_info .details1 p {
+    margin-bottom: 0px;
+}
+
+.other_info .details1 {
+    border-right: 1px solid #e4e7ea;
+}
+
+.other_info .details1:last-child {
+    border-right: none;
+}
+
+.info-summery img {
+    padding: 30px !important;
+}
+
+/********User profile page tab css*******/
+.user_profile img {
+    width: 100px;
+}
+
+.tab-content {
+    margin-top: 0px;
+    padding: 7.5px;
+}
+
+.personal_profile .tab-content {
+    margin-top: 0px;
+    padding: 15px 0px;
+}
+
+.medication table th {
+    font-weight: bold !important;
+    border-top: none !important;
+    text-align: center !important;
+    background-color: #E4E7EA;
+    padding: 10px !important;
+}
+
+.medication table td {
+    text-align: center !important;
+    padding: 10px 0 !important;
+    color: #333 !important;
+    vertical-align: middle !important;
+}
+
+.medication table td img {
+    width: 30px;
+    padding: 1px;
+}
+
+.personal_profile label {
+    margin-bottom: 2px;
+    color: #5C6167;
+}
+
+.personal_profile hr {
+    margin: 10px 0;
+}
+
+.personal_profile h5 {
+    padding-left: 7.5px;
+    border-bottom: 1px solid #818285;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.personal_profile .form-group {
+    margin-bottom: 15px;
+}
+
+.personal_profile .input-group .form-control {
+    border: 1px solid #e4e7ea;
+    color: #333;
+}
+
+.personal_profile .input-group .input-group-addon {
+    padding: 6px 6px;
+}
+
+.personal_profile .nav-pills>li+li {
+    margin-left: 0px;
+}
+/********EMR page style*******/
+.emr_page .white-box {
+    padding: 7.5px;
+    margin-bottom: 7.5px;
+}
+.emr_page .white-box .nav-tabs .nav-item {
+    width: 20%;
+    text-align: center;
+}
+.emr_page .white-box .nav-tabs .nav-item a img {
+    width: 25px;
+}
+.emr_page .white-box .tab-content .tab-pane .form-group {
+    margin-bottom: 5px;
+}
+.emr_page .white-box .nav-tabs > li > a {
+    margin-right: 0;
+}
+/*--------Datatable css--------*/
+#example23_filter,
+#example23_length,
+.highcharts-credits {
+    display: none;
+}
+
+table.dataTable {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.graph {
+    height: 300px !important;
+    width: 100% !important;
+    box-shadow: 0 0 5px #CCC !important;
+}
+
+.highcharts-subtitle {
+    font-family: 'Roboto';
+    fill: #029CB7 !important;
+}
+
+/********EMR page style*******/
+.emr_page .white-box {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.emr_page .white-box .nav-tabs .nav-item {
+    width: 20%;
+    text-align: center;
+}
+
+.emr_page .white-box .nav-tabs .nav-item a img {
+    width: 25px;
+}
+
+.emr_page .white-box .tab-content .tab-pane .form-group {
+    margin-bottom: 5px;
+}
+
+.emr_page .white-box .nav-tabs>li>a {
+    margin-right: 0;
+}
+
+.view_parameter,
+.add_parameter_value,
+.add_parameter_name {
+    z-index: 1065;
+}
+
+.popover .popover-content {
+    padding: 5px 14px;
+}
+
+/*******Appointment booking********/
+.appo-booking .btn-sm {
+    padding: 6px 10px 7px 10px !important;
+}
+
+.appo-booking .btn-xs {
+    padding: 2.7px 10px !important;
+    font-size: 12px;
+}
+
+.appo-booking .btn-default,
+.new_appo_booking .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.appo-booking .btn-default:hover,
+.appo-booking .btn-default:active,
+.appo-booking .btn-default:focus,
+.new_appo_booking .btn-default:hover,
+.new_appo_booking .btn-default:active,
+.new_appo_booking .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.appo-booking .dropdown-menu>li>a,
+.new_appo_booking .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.appo-booking .dropdown-menu .bs-searchbox .form-control,
+.new_appo_booking .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.appo-booking .dropdown-menu>.active>a,
+.appo-booking .dropdown-menu>.active>a:hover,
+.appo-booking .dropdown-menu>.active>a:focus,
+.new_appo_booking .dropdown-menu>.active>a,
+.new_appo_booking .dropdown-menu>.active>a:hover,
+.new_appo_booking .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.appo-booking .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+.appo-booking .bootstrap-select,
+.new_appo_booking .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+.new_appo_booking .bootstrap-select {
+    width: 100% !important;
+}
+
+.appo-booking .input-group .bootstrap-select>.dropdown-toggle,
+.new_appo_booking .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/********Doctor profile*******/
+.doctor_profile a {
+    color: inherit;
+}
+
+.doctor_profile .user-bg {
+    margin: -5px;
+    height: auto;
+    padding: 50px 50px 5px 50px;
+    overflow: hidden;
+    position: relative;
+    background: url(../image/doctor_bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.doctor_profile .user-bg img {
+    /*height: 150px;*/
+    width: 150px;
+    box-shadow: 0 0 5px #5C6167;
+}
+
+.doctor_profile .user-btm-box {
+    padding-top: 10px;
+}
+
+.doctor_profile .user-btm-box img {
+    padding: 5px;
+}
+
+.doctor_profile .user-btm-box h4 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.doctor_profile .user-btm-box p {
+    margin-bottom: 0;
+}
+
+.doctor_profile .user-btm-box p.text-center {
+    line-height: 1;
+    font-size: 12px;
+}
+
+.doctor_profile .user-btm-box hr {
+    margin: 10px 0;
+}
+
+.doctor_profile .steamline .sl-item {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.doctor_profile .steamline hr {
+    margin: 10px 0;
+}
+
+.doctor_profile .tab-content #profile h5,
+.doctor_profile .tab-content #facility h5 {
+    border-bottom: 1px solid #818285;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.doctor_profile .tab-content #profile hr {
+    margin: 10px 0;
+}
+
+.doctor_profile .tab-content #profile p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.doctor_profile .tab-content #profile .form-group,
+.doctor_profile .tab-content #facility .form-group {
+    margin-bottom: 5px;
+}
+
+.doctor_profile .tab-content #profile .form-group .form-control[disabled] {
+    background-color: transparent;
+}
+
+.doctor_profile .tab-content #profile .form-group label {
+    margin-bottom: 1px;
+}
+
+.doctor_profile .customtab.nav-tabs .nav-link.active,
+.doctor_profile .customtab.nav-tabs .nav-link.active:focus,
+.doctor_profile .customtab.nav-tabs .nav-link:hover {
+    border-bottom: 2px solid #5C6167;
+    color: #5C6167;
+}
+
+.doctor_profile .btn-sm {
+    padding: 6px 10px 7px 10px !important;
+}
+
+.doctor_profile .tab-content .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.doctor_profile .tab-content .btn-default:hover,
+.doctor_profile .tab-content .btn-default:active,
+.doctor_profile .tab-content .btn-default:focus {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    box-shadow: none;
+}
+
+.doctor_profile .tab-content .btn-default {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.doctor_profile .tab-content .dropdown-menu>li>a {
+    padding: 5px 12px;
+}
+
+.doctor_profile .tab-content .dropdown-menu .bs-searchbox .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #5C6167;
+    height: 30px;
+    padding: 5px;
+    max-width: 100%;
+    transition: all 300ms linear 0s;
+}
+
+.doctor_profile .tab-content .dropdown-menu>.active>a,
+.doctor_profile .tab-content .dropdown-menu>.active>a:hover,
+.doctor_profile .tab-content .dropdown-menu>.active>a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #e4e7ea;
+}
+
+.doctor_profile .tab-content .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+.doctor_profile .tab-content .bootstrap-select {
+    width: 100% !important;
+}
+
+.doctor_profile .tab-content .input-group .bootstrap-select>.dropdown-toggle {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.doctor_profile .tab-content .bootstrap-filestyle .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    height: 30px;
+}
+
+.doctor_profile .tab-content .bootstrap-filestyle .btn-default {
+    background: #199CB7;
+    border: 1px solid #199CB7;
+    color: #ffffff;
+}
+
+.doctor_profile .table-condensed th {
+    font-weight: bold !important;
+    border-top: none !important;
+    text-align: center !important;
+    color: #FFF !important;
+    background-color: #029CB7 !important;
+}
+
+.doctor_profile .table-condensed th,
+.doctor_profile .table-condensed td {
+    padding: 5px 0 !important;
+}
+
+.doctor_profile .table-bordered th,
+.doctor_profile .table-bordered td {
+    border: 1px solid #029CB7 !important;
+}
+
+/********Notification css*******/
+.notification .customtab.nav-tabs .nav-link.active,
+.notification .customtab.nav-tabs .nav-link.active:focus,
+.notification .customtab.nav-tabs .nav-link:hover {
+    border-bottom: 2px solid #029CB7;
+    color: #029CB7;
+}
+
+.notification .steamline .sl-item {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.notification .steamline hr {
+    margin: 10px 0;
+}
+
+.notification .steamline .sl-right p {
+    margin: 0;
+}
+
+.notification .white-box .form-group {
+    margin-bottom: 10px;
+}
+
+/********Message css*******/
+.message .customtab.nav-tabs .nav-link.active,
+.message .customtab.nav-tabs .nav-link.active:focus,
+.message .customtab.nav-tabs .nav-link:hover {
+    border-bottom: 2px solid #029CB7;
+    color: #029CB7;
+}
+
+.message .steamline .sl-item {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.message .steamline hr {
+    margin: 10px 0;
+}
+
+.message .steamline .sl-right p {
+    margin: 0;
+}
+
+.message .steamline .sl-right p .extra {
+    display: none;
+}
+
+.message .white-box .form-group {
+    margin-bottom: 10px;
+}
+
+.message .chat-box .input-group .form-control,
+.message .chat-box .input-group .form-control:hover,
+.message .chat-box .input-group .form-control:focus,
+.message .chat-box .input-group .form-control:active {
+    border: 1px solid #e4e7ea;
+    border-right: 1px solid #199CB7;
+}
+
+.message .chat-list {
+    padding: 0;
+    max-height: 400px;
+}
+
+.message .chat-list li {
+    margin-bottom: 10px;
+}
+
+.message .chat-list .chat-image {
+    width: 9%;
+}
+
+.message .chat-list .chat-text h4 {
+    color: #FFFFFF;
+}
+
+.message .chat-list .chat-body {
+    margin-left: 1%;
+    width: 90%;
+    background: #199CB7;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 0 15px 15px 15px;
+}
+
+.message .chat-list .odd .chat-body {
+    margin-right: 1%;
+    margin-left: 0;
+    width: 90%;
+    background: #199CB7;
+    padding: 5px 10px;
+    border-radius: 15px 0px 15px 15px;
+}
+
+.message .chat-list .chat-text {
+    background: #199CB7;
+    border-radius: 0;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+}
+
+.message .chat-list .odd .chat-text {
+    background: #199CB7;
+    border-radius: 0;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+}
+
+.msg-reply textarea {
+    resize: none;
+    min-height: 100px;
+    /*box-sizing: border-box;*/
+}
+
+/********Self fill up data*******/
+.self-data hr {
+    margin: 10px 0;
+}
+
+.self-data .btn-sm {
+    padding: 6.5px 10px !important;
+}
+
+.self-data .input-group .form-control {
+    border: 1px solid #e4e7ea;
+}
+
+.self-data .input-group .form-control:focus,
+.self-data .form-control:focus {
+    border: 1px solid #e4e7ea;
+    box-shadow: 0 0 10px #CCCCCC;
+}
+
+.self-data .input-group-addon {
+    padding: 5.5px 5px;
+    font-size: 12px;
+}
+
+/***************/
+.avl_doc .avl-doc .panel-body .search .white-box p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+    line-height: 1.4;
+}
+#all-doctor .avl-doc .panel-body .search .white-box img {
+    max-width: 40px !important;
+}
+
+.doctor_profile .avl-doc .btn-md,
+.clinic_profile .avl-doc .btn-md {
+    padding: 0px !important;
+}
+
+/***************/
+/******* Prescription ********/
+.prescription .bootstrap-filestyle .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    height: 30px;
+    border-radius: 4px !important;
+}
+.avl_doc .modal-body .white-box {
+    width: 100%;
+}
+.prescription .bootstrap-filestyle .btn-default,
+.prescription .btn-danger {
+    background: #5984C3;
+    border: 1px solid #5984C3;
+    color: #ffffff;
+    border-radius: 4px !important;
+}
+
+.prescription .btn-default,
+.prescription .input-group .btn-default {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.prescription .input-group .btn-default {
+    background-color: #5984C3;
+    border: 0px;
+    cursor: pointer;
+}
+
+.table.dataTable,
+table.dataTable {
+    width: 99.5% !important;
+}
+
+table.dataTable {
+    border: none;
+    border-top: 1px solid #000;
+}
+
+table.dataTable.display tbody td {
+    border-bottom: 1px solid #ddd;
+    border-top: 0px;
+}
+
+/********Walk-in-appointment*******/
+.walk-in-appo .white-box,
+.walk-in-appo .white-box .panel,
+.walk-in-appo .white-box .panel-custom>.panel-heading {
+    background-color: #F8F8F8 !important;
+}
+
+.walk-in-appo .white-box .panel .panel-body {
+    background: url(../image/walkin_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    min-height: 450px;
+}
+
+.walk-in-appo .white-box .panel .panel-body select {
+    background-color: #FFFFFF;
+}
+
+/***************/
+.footer {
+    padding: 5px 30px;
+}
+
+/********Autocomplete css*******/
+.ui-menu {
+    max-width: 500px;
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #FFF;
+    border: 1px solid #e4e7ea;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.ui-menu li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 0;
+}
+
+.ui-menu li:hover {
+    background-color: #e4e7ea;
+}
+
+/********Autocomplete bill css*******/
+.panel .appointment hr {
+    border: 1px dashed #999;
+    margin: 5px 0;
+    line-height: 1px;
+}
+
+.appointment .table-invoice tbody td:first-child {
+    width: 70%;
+}
+
+.appointment .table-invoice tbody td:last-child {
+    width: 30%;
+}
+
+.appointment .table-invoice tbody>tr>td.promocode p {
+    line-height: 1;
+}
+
+/********Immunization css*******/
+.immunization .btn-xs {
+    border-radius: 0 !important;
+    padding: 2px 5px 1px 5px;
+}
+
+.immunization p {
+    line-height: 1;
+}
+
+.immunization .birth h3,
+.immunization .sixweeks h3,
+.immunization .tenweeks h3,
+.immunization .fourteenweeks h3,
+.immunization .ninemonths h3,
+.immunization .twelvemonths h3,
+.immunization .fifteenmonths h3,
+.immunization .stoeteenmonths h3,
+.immunization .twoyears h3,
+.immunization .fiveyears h3,
+.immunization .tenyears h3,
+.immunization .ttofyears h3 {
+    line-height: 18px;
+    border-bottom: 1px solid #296A88;
+    text-transform: none !important;
+    text-indent: 4px;
+    font-weight: bold;
+    color: #296A88;
+}
+
+.immunization .birth {
+    background: url(../image/immunization/birth.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    height: 150px;
+}
+
+.immunization .sixweeks {
+    background: url(../image/immunization/6weeks.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .tenweeks {
+    background: url(../image/immunization/10weeks.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .fourteenweeks {
+    background: url(../image/immunization/14weeks.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .ninemonths {
+    background: url(../image/immunization/9months.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .twelvemonths {
+    background: url(../image/immunization/12months.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .fifteenmonths {
+    background: url(../image/immunization/15months.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .stoeteenmonths {
+    background: url(../image/immunization/16to18months.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .twoyears {
+    background: url(../image/immunization/2years.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .fiveyears {
+    background: url(../image/immunization/5years.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .tenyears {
+    background: url(../image/immunization/10years.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization .ttofyears {
+    background: url(../image/immunization/13to15years.png) no-repeat bottom;
+    background-size: 100%;
+    width: 100% !important;
+    min-height: 150px;
+}
+
+.immunization_chart .white-box {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.immunization_chart .immunization .birth,
+.immunization_chart .immunization .sixweeks,
+.immunization_chart .immunization .tenweeks,
+.immunization_chart .immunization .fourteenweeks,
+.immunization_chart .immunization .ninemonths,
+.immunization_chart .immunization .twelvemonths,
+.immunization_chart .immunization .fifteenmonths,
+.immunization_chart .immunization .stoeteenmonths,
+.immunization_chart .immunization .twoyears,
+.immunization_chart .immunization .fiveyears,
+.immunization_chart .immunization .tenyears,
+.immunization_chart .immunization .ttofyears {
+    min-height: 130px !important;
+}
+
+/********Services css*******/
+.panel-custom .panel-body .service .white-box {
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px #CCC;
+    padding: 10px;
+}
+
+@media (max-width:767px) {
+
+    .immunization .birth,
+    .immunization .sixweeks,
+    .immunization .tenweeks,
+    .immunization .fourteenweeks,
+    .immunization .ninemonths,
+    .immunization .twelvemonths,
+    .immunization .fifteenmonths,
+    .immunization .stoeteenmonths,
+    .immunization .twoyears,
+    .immunization .fiveyears,
+    .immunization .tenyears,
+    .immunization .ttofyears {
+        background-size: 90%;
+    }
+}
+
+/***************/
+.app_get_data .bootstrap-select .btn-default {
+    background-color: transparent;
+    border: 1px solid #e4e7ea;
+    border-radius: 4px !important;
+}
+
+.single-cp {
+    box-shadow: 0 0 5px #CCC;
+}
+
+.unavailable {
+    pointer-events: none;
+    background-color: #CCC;
+    opacity: 0.5;
+}
+
+/***************/
+@media (max-width:767px) {
+    .top-left-part .logo span {
+        display: none !important;
+    }
+
+    #side-menu {
+        width: 193px;
+    }
+
+    .two-part li {
+        width: 48.6%;
+    }
+
+    .two-part li i {
+        font-size: 40px;
+    }
+
+    .two-part li span {
+        font-size: 40px;
+        font-weight: 100;
+        font-family: 'Roboto Light';
+    }
+
+    .white-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-fluid {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .allotment_value .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 130px !important;
+    }
+
+    .user-details p {
+        margin-bottom: 0px;
+    }
+
+    .other_info {
+        margin-top: 15px;
+    }
+
+    .other_info .details p {
+        padding: 0px !important;
+    }
+
+    .tab-content table td img {
+        width: 20px;
+        padding: 1px;
+    }
+
+    .info-summery img {
+        padding: 5px !important;
+        margin-top: 15px;
+    }
+
+    .css-bar-lg {
+        width: 90px;
+        height: 90px;
+        font-size: 20px;
+    }
+
+    .css-bar-lg>img {
+        width: 80px;
+        height: 80px;
+        margin-left: 5px;
+        margin-top: 5px;
+        line-height: 80px;
+    }
+
+    .room_info .f_occupied .white-box,
+    .room_info .p_occupied .white-box,
+    .room_info .f_available .white-box,
+    .room_info .f_disabled .white-box {
+        padding: 15px;
+    }
+
+    .walk-in-appo .white-box,
+    .walk-in-appo .white-box .panel,
+    .walk-in-appo .white-box .panel-custom>.panel-heading {
+        background-color: #FFFFFF !important;
+    }
+
+    .walk-in-appo .white-box .panel .panel-body {
+        background: none;
+        min-height: 200px;
+    }
+
+    .walk-in-appo .white-box .panel .panel-body select {
+        background-color: #FFFFFF;
+    }
+    .my_service .white-box p {
+        margin-bottom: 0;
+    }
+
+    .my_service .white-box p img {
+        width: 50px;
+    }
+
+    .my_service .white-box h3 {
+        font-size: 12px;
+    }
+}
